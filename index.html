@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="fullCenter">
+        <div id="formulario">
+            <h1>CADASTRO</h1>
+            <form>
+                <label for="name">Nome</label>
+                <input type="text" id="name" placeholder="Nome">
+
+                <label for="colorpicker">Cor favorita</label>
+                <input type="color" id="colorpicker">
+
+                <label for="nascimento">Data de nascimento</label>
+                <input type="date" id="nascimento">
+
+                <label for="hrnscimento">Hora do nascimento</label>
+                <input type="time" id="hrnscimento">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="abcdefg@gmail.com">
+                <label for="confiremail">Confirmar o E-mail</label>
+                <input type="email" id="confiremail" placeholder="abcdefg@gmail.com">
+
+                <label for="doc">Faça upload do documento</label>
+                <input type="file" id="doc" accept=".pdf">
+
+                <label for="image">Coloque sua imagem</label>
+                <input type="image">
+
+                <label for="telefone">Telefone</label>
+                <input type="number" placeholder="(11) 9999-9999">
+
+                <label for="pass">Senha</label>
+                <input type="password" id="pass">
+                <label for="confirpass">Senha</label>
+                <input type="password" id="confpass">
+
+                <label for="sexo">Sexo</label>
+
+                <input type="radio" id="masc" name="sexo" value="M">
+                <label for="masc">Masculino</label>
+
+                <input type="radio" id="fem" name="sexo" value="F">
+                <label for="fem">Feminino</label>
+
+                <input type="radio" id="ni" name="sexo" value="n">
+                <label for="ni">Prefiro não declarar</label>
+
+                <label for="Satisfação">Satisfação</label>
+                <input type="range" id="satisfacao">
+
+                <input type="checkbox" id="agreet" value="y">
+                <label for="agree">Concordo com os termos</label>
+                <input type="checkbox" id="agreep" value="y">
+                <label for="agree">Concordo com as politicas</label>
+
+                <input type="reset" value="Limpar">
+                <button>Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
